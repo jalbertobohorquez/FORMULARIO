@@ -1,0 +1,67 @@
+*{
+    color: rgb(36, 68, 87);
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(169, 177, 173);
+}
+.tabla{
+    border: 1px solid black;
+    width: 800px;
+    border-collapse: collapse;
+    margin:auto;
+}
+
+.tabla th{
+    color: black;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.tabla td{
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+}
+
+.tabla td:hover{
+    background-color: aquamarine;
+}
+
+label{
+    display:inline-block;
+    text-align: left;
+    color: rgb(19, 54, 51);
+    width: 120px;
+}
+div{
+    text-align: center;
+    margin: auto;
+}
+.container{
+    background-color: rgb(129, 138, 146);
+    width: fit-content;
+    border: 2px solid black;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    color: rgb(143, 34, 34);
+}
+h2{
+    text-align: center;
+    color: rgb(53, 111, 236);
+}
+p{
+    text-align: center;
+}
+.button{
+    background-color: rgb(107, 196, 166);
+    width: fit-content;
+}
+.button:hover{
+    background-color:rgb(67, 151, 123);
+    cursor: pointer;
+}
